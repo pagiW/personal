@@ -96,7 +96,7 @@ const Gustos = () => {
                 }
             }}>What will i do when i grow up?</h2>
             <p style={develop}>I want to be a computer engineer</p>
-            <img src={com} alt='computer engineer' />
+            <img style={develop} src={com} alt='computer engineer' />
         </main>
     );
 }
