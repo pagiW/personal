@@ -8,6 +8,7 @@ import jimmy from '../imgs/jimmy.jpg';
 import bonjovi from '../imgs/bon_jovi.jpeg';
 import guitar from '../imgs/guitarra.jpg';
 import pro from '../imgs/pro.jpeg';
+import com from '../imgs/com.jpeg';
 import game from '../imgs/game.jpg';
 
 const Gustos = () => {
@@ -95,6 +96,7 @@ const Gustos = () => {
                 }
             }}>What will i do when i grow up?</h2>
             <p style={develop}>I want to be a computer engineer</p>
+            <img src={com} alt='computer engineer' />
         </main>
     );
 }
