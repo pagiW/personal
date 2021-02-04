@@ -10,6 +10,7 @@ import guitar from '../imgs/guitarra.jpg';
 import pro from '../imgs/pro.jpeg';
 import com from '../imgs/com.jpeg';
 import game from '../imgs/game.jpg';
+import rubik from '../imgs/rubik.jpeg';
 
 const Gustos = () => {
     let [music, setM] = useState({display: "none"});
@@ -86,6 +87,10 @@ const Gustos = () => {
                 <li>
                     <p>Play video games</p>
                     <img src={game} alt='game' />
+                </li>
+                <li>
+                    <p>Make the Rubik's cube</p>
+                    <img src={rubik} alt='game' />
                 </li>
             </ul>
             <h2 style={{cursor: "pointer"}} onClick={() => {
